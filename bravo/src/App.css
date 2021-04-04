@@ -1,0 +1,126 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  padding: 40px 5px;
+  text-align: center;
+  background-color: #43144A;
+  color: white;
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+  justify-content: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Center */
+
+
+.center {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 30px;
+}
+
+.imageAvi {
+  width: 100px;
+  padding-top: 0;
+}
+
+.header {
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.50rem;
+  color: #FFC700;
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  color: #CBCBFF;
+  text-align: center;
+}
+
+.select {
+  display: flex;
+  justify-content: center;
+  flex: auto;
+  margin-top: 1rem;
+  color: #EE8D94;
+  flex-direction: row;
+  align-items: center;
+  background-color: #43144A;
+}
+.selectHeader {
+  font-size: 30px;
+  color: #EE8D94;
+  margin-right: 15px;
+}
+.custom-select {
+  padding: 5px;
+}
+.noselect {
+  padding: 5px;
+  height: 50px;
+}
+
+.selectdiv select {
+  height: 40px;
+  padding-right: 45px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  background-color: #43144A;
+  border: 3px solid #EE8D94;
+  
+}
+
+.button {
+  background-color:rgba(133, 53, 148, 1);
+  border: none;
+  padding: 12.5px 48.5px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+/* Left And Right Render */
+.image2 {
+  width: 278px;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

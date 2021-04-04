@@ -1,0 +1,42 @@
+
+.App {
+  
+  text-align: center;
+  background-image: url(./components/image/cutcut.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; 
+}
+
+.grider {
+  padding: 15rem 25rem;
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  height: 400px;
+  align-content: center;
+  padding: 10px;
+  
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255,1);
+  border: 2px solid #853594;;
+  padding: 10px 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

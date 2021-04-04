@@ -10,7 +10,11 @@
 }
 
 .grider {
-  padding: 15rem 25rem;
+  padding: 10rem 10rem;
+}
+
+.greedy {
+  color: #853594;
 }
 
 
@@ -26,7 +30,7 @@
 
 .grid-item {
   background-color: rgba(255, 255, 255,1);
-  border: 2px solid #853594;;
+  border: 2px solid #853594;
   padding: 10px 20px;
   font-size: 30px;
   text-align: center;

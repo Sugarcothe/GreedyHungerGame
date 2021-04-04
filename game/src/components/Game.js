@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Game = () => {
   return (
@@ -8,9 +8,21 @@ const Game = () => {
         <div className="grid-item"></div>
         <div className="grid-item">2</div>
         <div className="grid-item">3</div>
+        <div className="grid-item"><i className="greedy fas fa-skull"></i></div>
+        <div className="grid-item"><i class="fas fa-hamburger"></i></div>
+        <div className="grid-item"><i class="fas fa-hamburger"></i></div>
+        <div className="grid-item">7</div>
+        <div className="grid-item">8</div>
+        <div className="grid-item"><i class="fas fa-hamburger"></i></div>
         <div className="grid-item"></div>
         <div className="grid-item"></div>
-        <div className="grid-item">6</div>
+        <div className="grid-item"><i class="fas fa-hamburger"></i></div>
+        <div className="grid-item"></div>
+        <div className="grid-item"></div>
+        <div className="grid-item"></div>
+        <div className="grid-item">7</div>
+        <div className="grid-item">8</div>
+        <div className="grid-item">9</div>
         <div className="grid-item">7</div>
         <div className="grid-item">8</div>
         <div className="grid-item">9</div>
@@ -20,26 +32,14 @@ const Game = () => {
         <div className="grid-item"></div>
         <div className="grid-item"></div>
         <div className="grid-item"></div>
-        <div className="grid-item">7</div>
+        <div className="grid-item"><i class="fas fa-hamburger"></i></div>
         <div className="grid-item">8</div>
-        <div className="grid-item">9</div>
-        <div className="grid-item">7</div>
-        <div className="grid-item">8</div>
-        <div className="grid-item">9</div>
+        <div className="grid-item"><i class="fas fa-hamburger"></i></div>
         <div className="grid-item"></div>
         <div className="grid-item"></div>
         <div className="grid-item"></div>
         <div className="grid-item"></div>
-        <div className="grid-item"></div>
-        <div className="grid-item"></div>
-        <div className="grid-item">7</div>
-        <div className="grid-item">8</div>
-        <div className="grid-item">9</div>
-        <div className="grid-item"></div>
-        <div className="grid-item"></div>
-        <div className="grid-item"></div>
-        <div className="grid-item"></div>
-        <div className="grid-item"></div>
+        <div className="grid-item"><i class="fas fa-hamburger"></i></div>
         <div className="grid-item"></div>
         <div className="grid-item"></div>
         <div className="grid-item">8</div>
@@ -85,12 +85,12 @@ const Game = () => {
         <div className="grid-item"></div>
         <div className="grid-item"></div>
         <div className="grid-item"></div>
+        <div className="grid-item"><i class="fas fa-hamburger"></i></div>
         <div className="grid-item"></div>
         <div className="grid-item"></div>
         <div className="grid-item"></div>
         <div className="grid-item"></div>
-        <div className="grid-item"></div>
-        <div className="grid-item"></div>
+        <div className="grid-item"><i class="fas fa-hamburger"></i></div>
         <div className="grid-item">7</div>
         <div className="grid-item"></div>
         <div className="grid-item"></div>

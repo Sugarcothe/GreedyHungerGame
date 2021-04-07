@@ -1,0 +1,2 @@
+# GreedyHungerGame
+An interview Task 

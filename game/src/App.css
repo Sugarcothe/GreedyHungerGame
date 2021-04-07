@@ -17,22 +17,24 @@
   color: #853594;
 }
 
-
+.headerhunger {
+  background: rgba(255, 255, 255,1);
+}
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
   height: 400px;
   align-content: center;
-  padding: 10px;
+ 
   
 }
 
 .grid-item {
   background-color: rgba(255, 255, 255,1);
   border: 2px solid #853594;
-  padding: 10px 20px;
-  font-size: 30px;
+  padding: 10px;
+  font-size: 25px;
   text-align: center;
 }
 
